@@ -3,9 +3,9 @@
     "description": "PHP client library for communicating with HDFS",
     "keywords": [
         "haydenk",
-	"web-hdfs-client",
-	"hdfs",
-	"hadoop"
+        "web-hdfs-client",
+        "hdfs",
+        "hadoop"
     ],
     "homepage": "https://github.com/haydenk/web-hdfs-client",
     "type": "library",
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-	"php": "~5.6|~7.0",
+        "php": "~5.6|~7.0",
         "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
@@ -27,13 +27,13 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-	    "haydenk\\WebHDFS\\": "src/main"
-	}
+            "haydenk\\WebHDFS\\": "src/main"
+        }
     },
     "autoload-dev": {
         "psr-4": {
-	    "haydenk\\WebHDFS\\": "src/tests"
-	}
+            "haydenk\\WebHDFS\\": "src/tests"
+        }
     },
     "scripts": {
         "test": "phpunit",
