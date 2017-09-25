@@ -1,0 +1,3 @@
+docker run --rm -it \
+    -v $PWD:/home/hdfs/web-hdfs-client \
+    haydenk/hdfs-php php $*
