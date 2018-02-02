@@ -1,4 +1,0 @@
-docker run --rm -it \
-    -v $HOME/.composer:/home/hdfs/.composer \
-    -v $PWD:/home/hdfs/web-hdfs-client \
-    haydenk/hdfs-php composer $*
